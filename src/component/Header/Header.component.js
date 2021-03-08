@@ -10,12 +10,12 @@ const Header = () => {
         <img src={TeslaLogo} alt="Tesla Logo" />
       </div>
       <div className="header-center">
-        <p>Model S</p>
-        <p>Model 3</p>
-        <p>Model X</p>
-        <p>Model Y</p>
-        <p>Solar Roof</p>
-        <p>Solar Panel</p>
+        <a href="https://www.tesla.com/models">Model S</a>
+        <a href="https://www.tesla.com/model3">Model 3</a>
+        <a href="https://www.tesla.com/modelx">Model X</a>
+        <a href="https://www.tesla.com/modely">Model Y</a>
+        <a href="https://www.tesla.com/solarroof">Solar Roof</a>
+        <a href="https://www.tesla.com/solarpanels">Solar Panel</a>
       </div>
       <div className="header-right">
         <p>Shop</p>
