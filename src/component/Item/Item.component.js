@@ -49,7 +49,7 @@ const Item = ({
           </div>
           {first && (
             <div className="item-expand">
-              <ExpandMoreIcon />
+              <ExpandMoreIcon style={{ fontSize: 50 }} />
             </div>
           )}
         </div>
