@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-logo">
-        <img src={TeslaLogo} alt="Tesla Logo" />
+        <a href="https://www.tesla.com/">
+          <img src={TeslaLogo} alt="Tesla Logo" />
+        </a>
       </div>
       <div className="header-center">
         <a href="https://www.tesla.com/models">Model S</a>
@@ -18,8 +20,8 @@ const Header = () => {
         <a href="https://www.tesla.com/solarpanels">Solar Panel</a>
       </div>
       <div className="header-right">
-        <p>Shop</p>
-        <p>Tesla Account</p>
+        <a href="https://shop.tesla.com/?tesref=true">Shop</a>
+        <a href="https://www.tesla.com/teslaaccount">Tesla Account</a>
       </div>
     </div>
   )
